@@ -1,5 +1,5 @@
 import React from "react";
-import { Contacts } from "../component/Contactos"
+import { Contactos } from "../component/Contactos"
 import "../../styles/home.css";
 
 
