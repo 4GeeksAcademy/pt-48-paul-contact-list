@@ -27,10 +27,10 @@ export const Contactos = () => {
                         </div>
                         <div className="col-md-8">
                             <div className="card-body">
-                               
                                     <h1 className="Full__name">{element.full_name}</h1>
                                     <h3 className="Email__address">Email Address: <br />{element.email}</h3>
                                     <h4 className="Phone__number">Phone Number: <br />{element.phone}</h4>
+                                    <h2 className="">Agenda_slug <br/>{element.agenda_slug}</h2>
                                     <h2 className="Street__address">Street Address: <br />{element.address}</h2>
                                     <div className="d-flex justify-content-end">
                                         <button onClick={() => 

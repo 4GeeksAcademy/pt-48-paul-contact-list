@@ -21,9 +21,6 @@ const getState = ({ getStore, getActions, setStore }) => {
 				}
 			},
 
-
-				// const store = getStore();
-				// return store.contacts;
 			addContact: async (data) => {
 				try {
 				  const response = await fetch("https://playground.4geeks.com/apis/fake/contact/", {
